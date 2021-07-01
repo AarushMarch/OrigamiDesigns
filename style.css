@@ -1,0 +1,32 @@
+
+.title{
+    border:solid;
+    color:rgb(255, 0, 0);
+    background-color: rgba(195, 255, 0, 0.774);
+    
+}
+.header{
+    color:chocolate;
+}
+.img{
+    justify-content: center;
+
+}
+.para{
+    border:solid;
+}
+.h3{
+    font:200
+}
+.grid{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    border:solid 10px #000FFF;
+}
+.right{
+    display:flex;
+    flex:start;
+    align-content:right;
+    flex:end;
+}
