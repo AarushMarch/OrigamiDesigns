@@ -1,13 +1,14 @@
 
 .title{
+    display:flex;
     border:solid;
     color:rgb(255, 0, 0);
     background-color: rgba(195, 255, 0, 0.774);
+    justify-content: center;
+    size:0.2cm;
     
 }
-.header{
-    color:chocolate;
-}
+
 .img{
     justify-content: center;
 
@@ -29,4 +30,15 @@
     flex:start;
     align-content:right;
     flex:end;
+}
+.menu{
+    display:flex;
+}
+.bodyimg{
+    display:flex;
+}
+.header{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
