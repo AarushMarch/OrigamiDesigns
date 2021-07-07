@@ -1,0 +1,119 @@
+        <body style="background-color:antiquewhite;">
+            
+            
+                <p>
+                    <div class="header">
+                        <div class="menu">
+                            <div><a href="#">≡</a></div>
+                            Origami Designs
+                            <a href="followus">Follow Us</a>
+                            <a href="aboutme">About Us</a>
+                        </div>
+                    </div>
+                        <!--
+                    <div class="bodyimg">
+                        <img src="Images/blackGradient.jpg" height="600px" width="100%">
+                        <p>
+                            Origami Instructions and Designs
+                        </p>
+                        <h3><br>
+                            Step by step diagrams are probably the most popular and easiest to follow way to fold things out of paper.
+                            Trying to find good origami instructions on the Internet can be a lot of work though. To help your search,
+                            we've put together the largest database of free origami diagrams on the internet.
+                        </h3>
+                    </div>    
+                    </div>
+                        <div class="right">
+                        <a href="followus">Follow Us</a>
+                        <a href="aboutme">About Us</a></div></div>
+
+                    <h2>If you want to learn Origami, this is the place</h2>
+                    <h4>If you are bored and can't think of what to do?</h4>
+                    <h4>Go no further! Origami is here.</h4>
+                    <h4>Origami is the act of folding paper to make crazy things like dragons, boats and even swans!</h4>
+                    <h4>So stop reading and get folding!</h4>
+                    <hr>
+                    <ul>
+                        <li>In Japan, origami has inspired a lot of art, fashion, food, and even architecture!</li>
+                        <li>There are more than a dozen National Origami Associations throughout the world!</li>
+                        <li>Akira Yoshizawa is considered the Grand Master of modern Origami!</li>
+                        <li>The fastest time to make 100 origami cranes is 40 minutes 35 seconds!</li>
+                        <li>Origami is derived from two Japanese words: Ori (folded) and Kami (paper).</li>
+                    </ul>
+                    <hr>
+                </p>
+
+
+            <p>
+                <div class="para">
+                <h3>Boat</h3>
+                <div><a href="https://origami.me/boat/"><img src="Images/Boat.png", width=100, height=100 /></a></div>
+                <h5>A boat is a vehicle that can go on water.<br>This paper one can float too!<br>Click on the image above to learn how to make a paper boat.</h5>
+                </div>
+            </p>
+
+            <p>
+                <div class="para">
+                <h3>Swan</h3>
+                <div class="img"><a href="https://origami.me/swan/"><img src="Images/Swan.png", width=100, height=100/></a></div>
+                <h5>A swan is a bird that can seperate water from milk.<br>You can make a paper model of a swan!<br>Click on the image above to learn how to make it.</h5>
+                </div>
+            </p>
+
+            <p>
+                <div class="para">
+                <h3>Butterfly</h3>
+                <div class="img"><a href="https://origami.me/butterfly/"><img src="Images/Butterfly.png", width=100, height=100/></a></div>
+                <h5>A butterfly can smell from its feet!<br>It would really fun to make a paper version!<br>Click on the image above to learn how to make a paper Butterfly.</h5>
+                </div>
+            </p>
+
+            <p>
+                <div class="para">
+                <h3>Camel</h3>
+                <div class="img"><a href="https://origami.me/camel/"><img src="Images/camel.png", width=100, height=100/></a></div>
+                <h5>Camels have 3 eyelids and 2 sets of eyelashes to help keep the sand out of their eyes!<br>It would really fun to make a paper version!<br>Click on the image above to learn how to make it!</h5>
+                </div>
+            </p>
+
+            <p>
+                <div class="para">
+                <h3>Chameleon</h3>
+                <div class="img"><a href="https://origami.me/chameleon/"><img src="Images/chameleon.png", width=100, height=100/></a></div>
+                <h5>Chameleons have a 360 view of their surroundings!<br>It would really fun to make a paper version!<br>Click on the image above to learn how to make it!</h5>
+                </div>
+            </p>
+
+            <p>
+                <div class="para">
+                <h3>Cicada</h3>
+                <div class="img"><a href="https://origami.me/cicada/"><img src="Images/cicada.png", width=100, height=100/></a></div>
+                <h5>There are over 3,000 different species of cicada!<br>It would really fun to make a paper version!<br>Click on the image above to learn how to make it!</h5>
+                </div>
+            </p>
+
+            <p>
+                <div class="para">
+                <h3>Panda</h3>
+                <div class="img"><a href="https://origami.me/panda/"><img src="Images/panda.png", width=100, height=100/></a></div>
+                <h5>Pandas can swim!<br>It would really fun to make a paper version!<br>Click on the image above to learn how to make it!</h5>
+                </div>
+            </p>
+
+            <p>
+                <div class="para">
+                <h3>Pigeon</h3>
+                <div class="img"><a href="https://origami.me/pigeon/"><img src="Images/pigeon.png", width=100, height=100/></a></div>
+                <h5>People used to guard pigeon poo!<br>It would really fun to make a paper version!<br>Click on the image above to learn how to make it!</h5>
+                </div>
+            </p>
+
+            <p>
+                <div class="para">
+                <h3>Teddy</h3>
+                <div class="img"><a href="https://origami.me/teddy/"><img src="Images/teddy.png", width=100, height=100/></a></div>
+                <h5>The teddy bear is named after U.S. President Theodore "Teddy" Roosevelt<br>It would really fun to make a paper version!<br>Click on the image above to learn how to make it!</h5>
+                </div>
+            </p>
+        </div>-->
+        </body>
