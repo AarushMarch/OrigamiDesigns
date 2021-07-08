@@ -14,19 +14,20 @@
     justify-content:space-evenly;
     flex-wrap: wrap;
     padding:20px;
-    padding-bottom: 20px;
+    margin:10px;
 }
 .bodyimg{
     display:flex;
     background-image:url("Images/blackGradient.jpg");
     background-size: 100% 300px;
-    color:white;
+    color:#ffffff;
     padding: 50px;
     flex-direction:column;
     align-items: center;
 }
 body{
-    background-color:antiquewhite;
+    background-color:#FAEBD7;
+    margin:0px;
 }
 .header{
     display:flex;
@@ -37,25 +38,32 @@ body{
 .menu{
     display:flex;
     justify-content:space-between;
-    background-color: rgba(195, 255, 0, 0.774);
-    color:rgb(255, 0, 0);
+    background-color:#aaaa;
+    color:#ff0000;
     font-size:20px;
     font-family:sans-serif;  
     width:100%;
     float:right;
+    padding:10px;
 }
 a{
     text-decoration: none;
 }
 .grid img{
     padding:10px;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 5px;
 }
 .origami {
     border-radius: 20px;
-    background-color: white;
+    background-color: #ffffff;
     width:310px;
     font-family: fantasy;
+    padding:5px;
+    margin:10px;
     
+}
+.explanation{
+    display:flex;
+    padding:10;
 }
