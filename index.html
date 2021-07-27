@@ -1,174 +1,43 @@
-<!DOCTYPE html>
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+  <script src="js/player.js"></script>
 
-    <html>
-        <head>
-            <link rel="stylesheet" type="text/css" href="style.css"/>
-            <link rel="icon" type="image/icon" href="Images/Boat.png"/>
-            
-            
-            
+  <script src="js/game.js"></script>
 
-        </head>
-        <body>
-                    <div class="header">
-                        
-                        <div class="menu">
-                            <div><a href="#">≡</a></div>
-                            <div>Origami Designs</div>
-                            <div><a href="aboutme">| About Us | </a>
-                                <a href="followus">Follow Us</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="bodyimg">
-                         <h1>Origami Instructions and Designs</h1>
-                         <h3>
-                            Step by step diagrams are probably the most popular and easiest to follow way to fold things out of paper.
-                            Trying to find good origami instructions on the Internet can be a lot of work though. To help your search,
-                            we've put together the largest database of free origami diagrams on the internet.
-                        </h3>
-                    </div>
+  <script src="js/form.js"></script>
+  
 
-                    <div>
-                        <hr>
-                    <ul>
-                        <li>In Japan, origami has inspired a lot of art, fashion, food, and even architecture!</li>
-                        <li>There are more than a dozen National Origami Associations throughout the world!</li>
-                        <li>Akira Yoshizawa is considered the Grand Master of modern Origami!</li>
-                        <li>The fastest time to make 100 origami cranes is 40 minutes 35 seconds!</li>
-                        <li>Origami is derived from two Japanese words: Ori (folded) and Kami (paper).</li>
-                    </ul>
-                    <hr>
-                    <div>
-                        <h2>If you want to learn Origami, this is the place</h2>
-                        <h4>If you are bored and can't think of what to do?</h4>
-                        <h4>Go no further! Origami is here.</h4>
-                        <h4>Origami is the act of folding paper to make crazy things like dragons, boats and even swans!</h4>
-                        <h4>So stop reading and get folding!</h4>
-                    </div>
-                    <hr>
-                    <div class="grid">
-                        <div class ="origami">
-                            <center>
-                            <a href ="http://origami.me/camel/"><img src="Images/camel.png" width="200px" height="200px"></a>
-                            <h3> Camel </h3>
-                            </center>
-                            <p>
-                                <ol>
-                                    <li>Camel's ears are furry</li>
-                                    <li>Camel can move easily across the sand because of its specially designed feet</li>
-                                    <li>When they find water, they will drink as much as possible.</li>
-                                </ol>
-                            </p>
-                        </div>
-                        <div class ="origami">
-                            <center>
-                            <a href ="http://origami.me/boat/"><img src="Images/Boat.png" width="200px" height="200px"></a>
-                            <h3> Boat </h3>
-                            </center>
-                            <p>
-                                <ol>
-                                    <li>Good and bad luck omens are different on sea and on land!</li>
-                                    <li>The youngest person to sail across he world is Laura Dekker at 14!</li>
-                                    <li>A boat and ship are different!</li>
-                                </ol>
-                            </p>
-                        </div>
-                        <div class ="origami">
-                            <center>
-                            <a href ="http://origami.me/butterfly/"><img src="Images/Butterfly.png" width="200px" height="200px"></a>
-                            <h3> Butterfly </h3>
-                            </center>
-                            <p>
-                                <ol>
-                                    <li>Butterflys taste with their feet!</li>
-                                    <li>There are around 20,000 different butterfly species!</li>
-                                    <li>Butterfly wings are transperent!</li>
-                                </ol>
-                            </p>
-                        </div>
-                        <div class ="origami">
-                            <center>
-                            <a href ="http://origami.me/chameleon/"><img src="Images/chameleon.png" width="200px" height="200px"></a>
-                            <h3> Chameleon </h3>
-                            </center>
-                            <p>
-                                <ol>
-                                    <li>Chameleons have a 360 view of their surroundings!</li>
-                                    <li>Chameleons don't actually change their color to camoflage!</li>
-                                    <li>Chameleons can't regrow their tails!</li>
-                                </ol>
-                            </p>
-                        </div>
-                        <div class ="origami">
-                            <center>
-                            <a href ="http://origami.me/cicada/"><img src="Images/cicada.png" width="200px" height="200px"></a>
-                            <h3> Cicada </h3>
-                            </center>
-                            <p>
-                                <ol>
-                                    <li>Cicadas live on all coninents except for antartica!</li>
-                                    <li>Cicadas are considered food!</li>
-                                    <li>Cicadas spend 17 years underground!</li>
-                                </ol>
-                            </p>
-                        </div>
-                        <div class ="origami">
-                            <center>
-                            <a href ="http://origami.me/panda/"><img src="Images/panda.png" width="200px" height="200px"></a>
-                            <h3> Panda </h3>
-                            </center>
-                            <p>
-                                <ol>
-                                    <li>Pandas can swim!</li>
-                                    <li>Bamboo is critical to a Pandas diet!</li>
-                                    <li>Pandas can be up to 45kg!</li>
-                                </ol>
-                            </p>
-                        </div>
-                        <div class ="origami">
-                            <center>
-                            <a href ="http://origami.me/pigeon/"><img src="Images/pigeon.png" width="200px" height="200px"></a>
-                            <h3> Pigeon </h3>
-                            </center>
-                            <p>
-                                <ol>
-                                    <li>Pigeons are intelligent!</li>
-                                    <li>Pigeons have amazing navigation skills!</li>
-                                    <li>Pigeons can go up to 92.5mph!</li>
-                                </ol>
-                            </p>
-                        </div>
-                        <div class ="origami">
-                            <center>
-                            <a href ="http://origami.me/swan/"><img src="Images/Swan.png" width="200px" height="200px"></a>
-                            <h3> Swan </h3>
-                            </center>
-                            <p>
-                                <ol>
-                                    <li>Swans can separate milk from water!</li>
-                                    <li>Swans can be very big!</li>
-                                    <li>Swans can live for a long time!</li>
-                                </ol>
-                            </p>
-                        </div>
-                        <div class ="origami">
-                            <center>
-                            <a href ="http://origami.me/teddy-bear/"><img src="Images/teddy.png" width="200px" height="200px"></a>
-                            <h3> Teddy </h3>
-                            </center>
-                            <p>
-                                <ol>
-                                    <li>The name teddy bear comes from former United States President Theodore Roosevelt!</li>
-                                    <li>Goldilocks from the story was originally an old lady!</li>
-                                    <li>The Oxford English Dictionary dates the first use of the term teddy bear to 1906!</li>
-                                </ol>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 
-    
-        </body>
-    </html>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAw_s7bCbzS3hnhYD9ql539Xjut3g1bIgM",
+    authDomain: "p40-fruitcatcher.firebaseapp.com",
+    databaseURL: "https://p40-fruitcatcher-default-rtdb.firebaseio.com",
+    projectId: "p40-fruitcatcher",
+    storageBucket: "p40-fruitcatcher.appspot.com",
+    messagingSenderId: "244857600243",
+    appId: "1:244857600243:web:e7985039fed5ffa4ec9f86"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+</body></html>
